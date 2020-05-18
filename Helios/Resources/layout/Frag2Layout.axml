@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#E2E2E2">
+    <TextView
+        android:text="Alarm"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AlarmTextView1"
+        android:textColor="#368DEB"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="5.5dp" />
+    <Button
+        android:text="Zet Alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_alarmOn"
+        android:background="@drawable/LayoutOFF"
+        android:layout_marginLeft="6.5dp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10.0dp" />
+    <Button
+        android:text="Alarm status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_alarmOff"
+        android:background="@drawable/LayoutON"
+        android:layout_marginLeft="6.5dp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10.0dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AlarmProgressBar"
+            android:indeterminate="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ProgressBarStyle" />
+    </RelativeLayout>
+</LinearLayout>

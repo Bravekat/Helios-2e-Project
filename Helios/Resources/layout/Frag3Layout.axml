@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/KlikLinearLayout1"
+        android:paddingBottom="2dp">
+        <TextView
+            android:text="Klik ON / OFF"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/KlikTextView1"
+            android:textColor="#368DEB"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginTop="5.5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/KlikLinearLayout2"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
+        <Button
+            android:text="OFF"
+            android:layout_width="118.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/KlikButton1"
+            android:background="@drawable/LayoutOFF"
+            android:layout_marginLeft="6.5dp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <Button
+            android:text="ON"
+            android:layout_width="118.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/KlikButton2"
+            android:background="@drawable/LayoutON"
+            android:layout_marginLeft="6.5dp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:text="Klikker 1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/KlikTextView2"
+            android:textColor="#368DEB"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/KlikLinearLayout3"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
+        <Button
+            android:text="OFF"
+            android:layout_width="118.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/KlikButton3"
+            android:background="@drawable/LayoutOFF"
+            android:layout_marginLeft="6.5dp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <Button
+            android:text="ON"
+            android:layout_width="118.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/KlikButton4"
+            android:background="@drawable/LayoutON"
+            android:layout_marginLeft="6.5dp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:text="Klikker 2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/KlikTextView3"
+            android:textColor="#368DEB"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/KlikLinearLayout4"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
+        <Button
+            android:text="OFF"
+            android:layout_width="118.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/KlikButton5"
+            android:background="@drawable/LayoutOFF"
+            android:layout_marginLeft="6.5dp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <Button
+            android:text="ON"
+            android:layout_width="118.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/KlikButton6"
+            android:background="@drawable/LayoutON"
+            android:layout_marginLeft="6.5dp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <TextView
+            android:text="Klikker 3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/KlikTextView4"
+            android:textColor="#368DEB"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/KlikProgressBar"
+            android:indeterminate="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ProgressBarStyle" />
+    </RelativeLayout>
+</LinearLayout>
